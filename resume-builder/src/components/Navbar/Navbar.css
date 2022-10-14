@@ -1,0 +1,89 @@
+header * { color: #ffffff; } 
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1550px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  align-items: center;
+  position: relative;
+  background-color: blueviolet;
+}
+ul li {
+  display: inline-block;
+  margin-right: 55px;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+ul li:hover{
+  font-weight: 600;
+  cursor: pointer;
+}
+.logo {
+  font-size: 25px;
+  font-family: "Footlight MT Pro Light";
+  cursor: default;
+}
+li.active_tab {
+  
+}
+li:hover{
+  cursor: default;
+}
+.active{
+  font-weight: 700;
+  color: #dad8d8e6;
+
+}
+button.signin,
+.try {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  background: #dad8d88c;
+  /* background: #6562628c ;  */
+  font-weight: 600;
+  border-radius: 15px;
+  
+}
+.NavLeftGrp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavLeftGrp .hamnburger-menu{
+  display: none;
+}
+.hamnburger-menu:hover{
+  cursor: pointer;
+}
+
+@media only screen and (min-width:650px) and (max-width:800px) {
+  ul li {
+    margin-right: 25px;
+ }
+}
+@media only screen and (max-width:650px) {
+  ul li {
+    display:none;
+ }
+ .NavLeftGrp .hamnburger-menu{
+  display:inline-block;
+  margin: 0px 10px;
+ }
+ .NavLinks_mob{
+  z-index: 99;
+  width:calc(100vw - 30px);
+  position: absolute;
+  background:#dad8d88c;
+  margin: 220px 0px 0px 0px ;
+  /* bottom: -220px; */
+  text-align: center;
+ }
+ .NavLinks_mob ul li {
+  display: block;
+  padding: 15px;
+  margin-right: 0px;
+ }
+
+}

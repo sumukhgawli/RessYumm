@@ -1,0 +1,41 @@
+
+.Signup_wrapper{
+    margin:50px 0 ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Signup_container_heading{
+   text-align: center;
+   font-size: 30px;
+   /* padding: 20px; */
+}
+.Signup_container{
+    padding: 20px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 20px;
+}
+.Signup_username , .Signup_password{
+    margin: 20px 5px;
+}
+.Signup_Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Signup_butont{
+    width: fit-content;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    border: 0px;
+    border-radius: 4px;
+    margin: 10px;
+}
+.redirect_login{
+    text-decoration: none;
+    color: grey;
+    /* font-size: 20px; */
+}

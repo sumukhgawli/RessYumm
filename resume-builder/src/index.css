@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family:Poppins;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+section{
+  margin: 110px 0;
+} 
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(213, 210, 210);
+  opacity: 1; /* Firefox */
+  letter-spacing: 1px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  }
+
+.container {
+  max-width: 1400px;
+  margin: 0 0 0 auto;
+  padding: 0 0 0 50px;
+}

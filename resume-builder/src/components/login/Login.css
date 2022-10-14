@@ -1,0 +1,39 @@
+.login_wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_container_heading{
+   text-align: center;
+   font-size: 30px;
+   padding: 20px;
+}
+.login_container{
+    padding: 20px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 20px;
+}
+.Login_username , .Login_password{
+    margin: 20px 5px;
+}
+.login_Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_butont{
+    width: fit-content;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    border: 0px;
+    border-radius: 4px;
+    margin: 10px;
+}
+.redirect_login{
+    text-decoration: none;
+    color: grey;
+    /* font-size: 20px; */
+}
